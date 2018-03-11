@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>E:\karthik\phone book app\PhoneBook.jar</jar>
+  <outfile>E:\karthik\phone book app\Book.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\Users\karthik\Downloads\Graphicloads-100-Flat-2-File-folder.ico</icon>
+  <classPath>
+    <mainClass>PhoneBook</mainClass>
+    <cp>E:\karthik\phone book app</cp>
+    <cp>C:\Program Files (x86)\Java\jdk1.6.0\jre\lib\ext\ojdbc14-10g.jar;.;</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>1.0.0</minVersion>
+    <maxVersion>6.0.0</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>

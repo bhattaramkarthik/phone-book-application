@@ -1,0 +1,25 @@
+To create a jar file
+
+First we have to open notepad.
+ 
+Then type
+
+Main-Class: (class name)
+
+Leave two lines
+
+Save it as Manifest.txt file
+
+we have to save it in the folder where your application is present.
+
+And then open cmd
+
+we have to goto our folder where the application is present
+
+and then type the following command
+
+jar cfvm Book.jar(name of the jar) Manifest.txt Book.class
+
+To run this jar file in cmd we use the following command
+
+java -jar Book.jar
